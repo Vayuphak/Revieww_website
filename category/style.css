@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.pagination li a {
+    
+    text-decoration: none;
+    margin:2px;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.pagination li:hover a {
+    background-color: black !important;
+    color: white !important;
+}
+.pagination li a.active  {
+    background-color: black !important;
+    color: white !important;
+}
+
+.pg {
+    display: flex;
+    justify-content: center;
+  }
+  /*
+  .main .ctn .book {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    border: 1px solid black; 
+    padding: 10px; 
+}
+    .ctn{
+        max-width:1190px;
+        margin:0 auto;
+        border:1px solid green;
+    }*/
+
+    
